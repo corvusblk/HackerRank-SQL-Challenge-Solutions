@@ -16,6 +16,6 @@ WHERE  price > 100;
 `SELECT quantity, value, date` snubbed in favor of
 ```
 SELECT quantity,
-          value,
-          date
+       value,
+       date
 ```
