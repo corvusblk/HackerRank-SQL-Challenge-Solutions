@@ -12,4 +12,8 @@ FROM   catalog
 WHERE  price > 100;
 ```
 * `AS` always used for clarity of distinction
-* multiple values per query section placed on newlines unless single line is subjectively clean
+* multiple values per query section placed on newlines unless single line is subjectively clean e.e.
+`SELECT quantity, value, date` snubbed in favor of
+```SELECT quantity,
+          value,
+          date```
